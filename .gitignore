@@ -1,0 +1,71 @@
+# ----------------------------------------------------------------------
+# 1. ARQUIVOS E CACHE DO LARAVEL (BACKEND) - Detalhado
+# ----------------------------------------------------------------------
+# Dependências e Builds
+/backend/vendor
+/backend/node_modules
+/backend/public/build
+/backend/public/hot
+
+# Arquivos de Sistema e Log (incluindo as regras específicas do Laravel)
+/backend/*.log
+/backend/storage/*.key
+/backend/storage/logs
+/backend/storage/framework/cache
+/backend/storage/framework/sessions
+/backend/storage/framework/views
+/backend/storage/app/public
+/backend/bootstrap/cache
+/backend/public/storage
+/backend/.phpunit.result.cache
+/backend/.phpunit.cache
+/backend/storage/pail
+/backend/auth.json
+/backend/*.sqlite
+
+# Ferramentas e IDEs específicas do Laravel
+/backend/Homestead.json
+/backend/Homestead.yaml
+
+# ----------------------------------------------------------------------
+# 2. ARQUIVOS E CACHE DO VITE/REACT/TS (FRONTEND)
+# ----------------------------------------------------------------------
+/frontend/node_modules
+/frontend/dist
+/frontend/dist-ssr
+/frontend/*.local
+/frontend/logs
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/lerna-debug.log*
+
+# ----------------------------------------------------------------------
+# 3. ARQUIVOS GERAIS DE SISTEMA, SECREDO E EDITOR
+# ----------------------------------------------------------------------
+# Variáveis Secretas (Essenciais para a segurança!)
+.env
+.env.testing
+.env.backup
+.env.production
+
+# Cache do Docker
+/dbdata
+
+# Arquivos de Sistema e Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+.fleet
+.nova
+.zed
+.phpactor.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
